@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/style/style.css">
+        <script src="./assets/js/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="mainPage">
+        <div class="nav">
+            <a href="#">
+                <div class="containerLogo">
+                    <img src="./assets/images/brand-logo.svg" alt="Logo" class="contentLogo" id="contentLogo">
+                </div>
+            </a>
+            <div class="containerNavIcon">
+                <i class="fa fa-bars" id="fa-bars" aria-hidden="true" onclick="openMenu();"></i>
+                <i class="fa fa-close" id="closeIcon" aria-hidden="true" onclick="closeMenu();"></i>
+            </div>
+            <div class="containerNavMenu" id="containerNavMenu">
+                <ul class="menuUl" id="menuUl">
+                    <li class="menuLi active" id="active">Mes réalisations</li>
+                    <li class="menuLi">Comment ça marche</li>
+                    <li class="menuLi">Avis</li>
+                    <li class="menuLi">Tarifs</li>
+                </ul>
+            </div>
+            <div class="containerSwitchTheme" id="containerSwitchTheme">
+                <div class="switchTheme" id="switchTheme">
+                    <div class="containerMoon isActive" id="containerMoon" onclick="switchDark();">
+                        <img src="./assets/images/Moon_fill_light.svg" alt="Moon Fill Light" class="contentMoon moonLight" id="moonLight">
+                        <img src="./assets/images/Moon_fill.svg" alt="Moon Fill Light" class="contentMoon moonDark" id="moonDark">
+                    </div>
+                    <div class="containerSun" id="containerSun" onclick="switchLight();">
+                        <img src="./assets/images/Sun_fill.svg" alt="Sun Fill Light" class="contentSun" id="contentSun">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="header">
+            <div class="header">
+                <div class="containerText">
+                    <!--<div class="containerSubTitle">
+                        <p>😎  Simple way to communicate</p>
+                    </div>-->
+                    <div class="containerTitle">
+                        <h1>Création de site vitrine sur mesure via<span class="styled-colored"> intégration de maquette</span></h1>
+                    </div>
+                    <div class="containerTexteTitle">
+                        <p>Expert en création web sur mesure via intégration de maquettes client, 
+                            je transforme vos maquettes et vos idées de sites vitrine en réelles plateforme numérique percutantes et personnalisées.</p>
+                    </div>
+                    <div class="containerCTA">
+                        <div class="mainCTA">Je prend un RDV</div>
+                        <div class="subCTA">Get live demo</div>
+                    </div>
+                    <div class="containerSmallInfo">
+                        <div class="smallInfo1">
+                            <img src="./assets/images/Done_ring_round_fill.svg" alt="Picto Check" class="contentPicto">
+                            <p>Client satisfait à 100%*</p>
+                        </div>
+                        <div class="smallInfo2">
+                            <img src="./assets/images/Done_ring_round_fill.svg" alt="Picto Check" class="contentPicto">
+                            <p>No software to install</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="containerImageHeader">
+                    <img src="./assets/images/hero-image-simple-homepage.png" alt="Image Header" class="contentImageHeader">
+                </div>
+            </div>
+        </section>
+
+        <section class="card-informations">
+            <div class="containerCard">
+                <div class="containerCardTop">
+                    <div class="containerCardTopLeft">
+                        <!--<h2 class="section-left-heading-white">Création de sites mémorables<span class="style-red">.</span><br></h2>
+                        <p class="card-paragraph">Je me concentre exclusivement sur une chose, et je m'y dédie avec une précision inégalée. Si vous recherchez un site web uniquement pour son esthétisme, avec des animations omniprésentes mais sans efficacité commerciale, alors mes services ne sont probablement pas pour vous. Mon expertise réside dans la création de sites qui génèrent de véritables résultats pour les startups et entreprises en croissance.<br></p>-->
+                    </div>
+                    <div class="containerCardTopRight"></div>
+                </div>
+                <div class="containerCardBottom">
+                    <div class="containerCardBottonLeft"></div>
+                    <div class="containerCardBottonRight"></div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Début de widget de lien Calendly -->
+    <!--<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async=""></script>
+    <a href="" class="custom-btn secondary-btn" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ngoyi-jeremie-pro/appel-d-information-jeremiecode-1er-contact?hide_gdpr_banner=1'});return false;">Prendre un RDV</a> -->
+    <!-- Fin de widget de lien Calendly -->
+</body>
+</html>
