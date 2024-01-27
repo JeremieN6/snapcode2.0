@@ -85,3 +85,54 @@ function switchLight(){
     active.style.fontWeight = "700";
 
 }
+
+/* Testimonials swipe */
+function nextTestimonial00(){
+    var testimonial00  = document.getElementById("w-slider-mask-0");
+    var testimonial01  = document.getElementById("w-slider-mask-1");
+
+    testimonial00.style.display = "none";
+    testimonial01.style.display = "block";
+
+}
+function prevTestimonial00(){
+    var testimonial00  = document.getElementById("w-slider-mask-0");
+    var testimonial02  = document.getElementById("w-slider-mask-2");
+
+    testimonial00.style.display = "none";
+    testimonial02.style.display = "block";
+}
+
+function prevTestimonial01(){
+    var testimonial00  = document.getElementById("w-slider-mask-0");
+    var testimonial01  = document.getElementById("w-slider-mask-1");
+
+    testimonial01.style.display = "none";
+    testimonial00.style.display = "block";
+
+}
+function nextTestimonial01(){
+    var testimonial01  = document.getElementById("w-slider-mask-1");
+    var testimonial02  = document.getElementById("w-slider-mask-2");
+
+    testimonial01.style.display = "none";
+    testimonial02.style.display = "block";
+}
+
+function prevTestimonial02(){
+    var testimonial00  = document.getElementById("w-slider-mask-0");
+    var testimonial01  = document.getElementById("w-slider-mask-1");
+    var testimonial02  = document.getElementById("w-slider-mask-2");
+
+    testimonial02.style.display = "none";
+    testimonial01.style.display = "block";
+
+}
+function nextTestimonial02(){
+    var testimonial00  = document.getElementById("w-slider-mask-0");
+    var testimonial02  = document.getElementById("w-slider-mask-2");
+
+    testimonial02.style.display = "none";
+    testimonial00.style.display = "block";
+}
+/* Testimonials swipe */
