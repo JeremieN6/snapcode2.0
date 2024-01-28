@@ -91,13 +91,22 @@ function nextTestimonial00(){
     var testimonial00  = document.getElementById("w-slider-mask-0");
     var testimonial01  = document.getElementById("w-slider-mask-1");
 
+    // testimonial00.style.opacity = "0";
+    // testimonial01.style.opacity = "1";
+    // testimonial01.style.transition = "transform 500ms ease 0s";
+    // testimonial01.style.transform = "translateX(-1689.6px)";
+
     testimonial00.style.display = "none";
     testimonial01.style.display = "block";
-
 }
 function prevTestimonial00(){
     var testimonial00  = document.getElementById("w-slider-mask-0");
     var testimonial02  = document.getElementById("w-slider-mask-2");
+
+    // testimonial00.style.opacity = "0";
+    // testimonial02.style.opacity = "1";
+    // testimonial02.style.transition = "transform 500ms ease 0s";
+    // testimonial02.style.transform = "translateX(-1689.6px)";
 
     testimonial00.style.display = "none";
     testimonial02.style.display = "block";
@@ -107,6 +116,10 @@ function prevTestimonial01(){
     var testimonial00  = document.getElementById("w-slider-mask-0");
     var testimonial01  = document.getElementById("w-slider-mask-1");
 
+    // testimonial01.style.opacity ="0";
+    // testimonial00.style.opacity = "1";
+    // testimonial00.style.transition = "transform 500ms ease 0s";
+    // testimonial00.style.transform = "translateX(-1689.6px)";
     testimonial01.style.display = "none";
     testimonial00.style.display = "block";
 
@@ -115,15 +128,22 @@ function nextTestimonial01(){
     var testimonial01  = document.getElementById("w-slider-mask-1");
     var testimonial02  = document.getElementById("w-slider-mask-2");
 
+    // testimonial01.style.opacity = "0";
+    // testimonial02.style.opacity = "1";
+    // testimonial02.style.transition = "transform 500ms ease 0s";
+    // testimonial02.style.transform = "translateX(-1689.6px)";
     testimonial01.style.display = "none";
     testimonial02.style.display = "block";
 }
 
 function prevTestimonial02(){
-    var testimonial00  = document.getElementById("w-slider-mask-0");
     var testimonial01  = document.getElementById("w-slider-mask-1");
     var testimonial02  = document.getElementById("w-slider-mask-2");
 
+    // testimonial02.style.opacity = "0";
+    // testimonial01.style.opacity = "1";
+    // testimonial01.style.transition = "transform 500ms ease 0s";
+    // testimonial01.style.transform = "translateX(-1689.6px)";
     testimonial02.style.display = "none";
     testimonial01.style.display = "block";
 
@@ -132,6 +152,10 @@ function nextTestimonial02(){
     var testimonial00  = document.getElementById("w-slider-mask-0");
     var testimonial02  = document.getElementById("w-slider-mask-2");
 
+    // testimonial02.style.opacity = "0";
+    // testimonial00.style.opacity = "1";
+    // testimonial00.style.transition = "transform 500ms ease 0s";
+    // testimonial00.style.transform = "translateX(-1689.6px)";
     testimonial02.style.display = "none";
     testimonial00.style.display = "block";
 }
