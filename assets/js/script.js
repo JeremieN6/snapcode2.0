@@ -160,3 +160,13 @@ function nextTestimonial02(){
     testimonial00.style.display = "block";
 }
 /* Testimonials swipe */
+
+
+/* FAQ */
+function seeMoreFAQ0(){
+    var faq_answer = document.getElementById("faq_answer");
+
+    faq_answer.style.width = "640px";
+    faq_answer.style.height = "auto";
+}
+/* FAQ */
