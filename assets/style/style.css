@@ -334,7 +334,7 @@ h1{
     .menuLi{
         margin: 0 30px 0 0;
         font-family: 'Poppins', sans-serif;
-        font-size: 14px;
+        font-size: 18px;
         cursor: pointer;
         text-transform: uppercase;
     }
@@ -599,7 +599,6 @@ h1{
         align-items: center;
         text-align: center;
     }
-
 
     .squareTopRight .up{
         font-size: 4rem;
@@ -1043,8 +1042,8 @@ h1{
         font-weight: 500;
     }
     .testimonials_arrow {
-        width: 3rem;
-        height: 3rem;
+        width: 2rem;
+        height: 2rem;
         background-color: var(--btn-next-black);
         border-radius: 50%;
         justify-content: center;
@@ -1060,7 +1059,8 @@ h1{
     .prev_testimonial {
         color: rgba(40, 41, 56, .6);
         background-color: #fff;
-        right: 3.5rem;
+        position: relative;
+        right: 1.5rem;
     }
     .testimonials_arrow-icon {
         height: 1rem;
@@ -1070,7 +1070,7 @@ h1{
         display: flex;
         /* margin-left: 15rem; */
         position: absolute;
-        left: 25rem;
+        left: 20rem;
     }
     #w-slider-mask-1,
     #w-slider-mask-2{
