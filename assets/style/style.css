@@ -264,7 +264,7 @@ h1{
         align-items: flex-start;
         padding: 20px 50px;
     }
-    .nav .sticky{
+    .sticky{
         position: sticky;
         top: 0;
         background-color: rgb(17, 23, 41);
@@ -1480,7 +1480,8 @@ h1{
 
     /* FAQ */
     .section-faq{
-        background-color: var(--bg-color-light-mode);
+        /* background-color: var(--bg-color-light-mode); */
+        background-color: #FFF;
     }
     .page-padding {
         padding-left: 2.5rem;
@@ -1577,7 +1578,8 @@ h1{
         width: 3rem;
         height: 3rem;
         margin-left: 2rem;
-        transition: background-color .3s;
+        /* transition: background-color .3s; */
+        transition: 750ms ease;
     }
     .faq_icon-line {
         width: 1rem;
@@ -1598,6 +1600,7 @@ h1{
         overflow: hidden;
         color: #333;
         height: 0;
+        transition: 500ms ease;
     }
     .faq_answer-wrapper {
         margin-left: 5rem;

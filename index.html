@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="mainPage">
-        <div class="nav sticky">
+        <div class="nav sticky" id="navMenu">
             <a href="#">
                 <div class="containerLogo">
                     <img src="./assets/images/home/brand-logo.svg" alt="Logo" class="contentLogo" id="contentLogo">
@@ -648,9 +648,9 @@
                                         </div>
                                         <div class="faq_question">
                                             <h3 class="heading-xxsmall">Combien coûte un site web ? <br></h3>
-                                            <div class="faq_icon" onclick="seeMoreFAQ0();">
-                                                <div class="faq_icon-line right"></div>
-                                                <div class="faq_icon-line is-vertical"></div>
+                                            <div class="faq_icon" id="faq_icon" onclick="seeMoreFAQ0();">
+                                                <div class="faq_icon-line right" id="iconPlus"></div>
+                                                <div class="faq_icon-line is-vertical" id="iconCross"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -660,6 +660,180 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="faq_item">
+                                    <div class="faq_question-wrapper">
+                                        <div class="faq_question-number">
+                                            <div class="faq_text-number">02</div>
+                                        </div>
+                                        <div class="faq_question">
+                                            <h3 class="heading-xxsmall">Combien de temps pour créer mon site web ? <br></h3>
+                                            <div class="faq_icon" id="faq_icon1" onclick="seeMoreFAQ1();">
+                                                <div class="faq_icon-line right" id="iconPlus"></div>
+                                                <div class="faq_icon-line is-vertical" id="iconCross"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="faq_answer" id="faq_answer1">
+                                        <div class="faq_answer-wrapper">
+                                            <p>Il me faut en moyenne 5 jours ouvrables pour créer un site internet classique. Certains projets peuvent prendre 2-4 semaines selon la taille du site et les actions marketing.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faq_item">
+                                    <div class="faq_question-wrapper">
+                                        <div class="faq_question-number">
+                                            <div class="faq_text-number">03</div>
+                                        </div>
+                                        <div class="faq_question">
+                                            <h3 class="heading-xxsmall">Puis-je créer mon site internet moi-même ?<br></h3>
+                                            <div class="faq_icon" id="faq_icon2" onclick="seeMoreFAQ2();">
+                                                <div class="faq_icon-line right" id="iconPlus"></div>
+                                                <div class="faq_icon-line is-vertical" id="iconCross"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="faq_answer" id="faq_answer2">
+                                        <div class="faq_answer-wrapper">
+                                            <p>
+                                                De nos jours, tout le monde peut créer son site web. En revanche, en faire un performant est une autre affaire. <br><br>
+                                                Beaucoup ont commencé à faire leur propre pain pendant le confinement. Pour autant, tu vas toujours chez le boulanger du coin, pourquoi ? <br><br>
+                                                Parce que c'est son métier et lui seul excelle dans son art. <br><br>
+                                                Sans compter que ça prend beaucoup de temps (surtout quand on ne maîtrise pas l'outil).
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faq_item">
+                                    <div class="faq_question-wrapper">
+                                        <div class="faq_question-number">
+                                            <div class="faq_text-number">04</div>
+                                        </div>
+                                        <div class="faq_question">
+                                            <h3 class="heading-xxsmall">Puis-je mettre à jour mon site web moi-même ?<br></h3>
+                                            <div class="faq_icon" id="faq_icon3" onclick="seeMoreFAQ3();">
+                                                <div class="faq_icon-line right" id="iconPlus"></div>
+                                                <div class="faq_icon-line is-vertical" id="iconCross"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="faq_answer" id="faq_answer3">
+                                        <div class="faq_answer-wrapper">
+                                            <p>
+                                                Oui, après la réalisation de ton site web, je te proposerai une séance de coaching pour que tu sois en mesure de modifier les contenus de ton site par toi même.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faq_item">
+                                    <div class="faq_question-wrapper">
+                                        <div class="faq_question-number">
+                                            <div class="faq_text-number">05</div>
+                                        </div>
+                                        <div class="faq_question">
+                                            <h3 class="heading-xxsmall">Que se passe-t-il si je n'aime pas le site que tu as réalisé ?<br></h3>
+                                            <div class="faq_icon" id="faq_icon4" onclick="seeMoreFAQ4();">
+                                                <div class="faq_icon-line right" id="iconPlus"></div>
+                                                <div class="faq_icon-line is-vertical" id="iconCross"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="faq_answer" id="faq_answer4">
+                                        <div class="faq_answer-wrapper">
+                                            <p>
+                                                Je considère le travail terminé que quand tu es pleinement satisfait de ton nouveau site web. <br><br>
+                                                Je travaille en cocréation avec mes clients. Ton avis compte et je validerai avec toi ce que j'ai fait à des étapes clés du projet.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faq_item">
+                                    <div class="faq_question-wrapper">
+                                        <div class="faq_question-number">
+                                            <div class="faq_text-number">06</div>
+                                        </div>
+                                        <div class="faq_question">
+                                            <h3 class="heading-xxsmall">Comment savoir si tu fais du bon travail ?<br></h3>
+                                            <div class="faq_icon" id="faq_icon5" onclick="seeMoreFAQ5();">
+                                                <div class="faq_icon-line right" id="iconPlus"></div>
+                                                <div class="faq_icon-line is-vertical" id="iconCross"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="faq_answer" id="faq_answer5">
+                                        <div class="faq_answer-wrapper">
+                                            <p>
+                                                Je m'appuie sur les fondements de la psychologie humaine pour créer des sites web impeccables. Mes sites sont donc fondés sur des principes prouvés et efficaces. <br><br>
+                                                Je crée des sites web depuis des années. Mon expérience et ma volonté d'apprendre sans cesse de nouvelles choses me poussent à être à la pointe des meilleures pratiques actuelles du web.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="faq_item">
+                                    <div class="faq_question-wrapper">
+                                        <div class="faq_question-number">
+                                            <div class="faq_text-number">07</div>
+                                        </div>
+                                        <div class="faq_question">
+                                            <h3 class="heading-xxsmall">Puis-je créer mon site internet moi-même ?<br></h3>
+                                            <div class="faq_icon" id="faq_icon6" onclick="seeMoreFAQ6();">
+                                                <div class="faq_icon-line right" id="iconPlus"></div>
+                                                <div class="faq_icon-line is-vertical" id="iconCross"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="faq_answer" id="faq_answer6">
+                                        <div class="faq_answer-wrapper">
+                                            <p>
+                                                De nos jours, tout le monde peut créer son site web. En revanche, en faire un performant est une autre affaire. <br><br>
+                                                Beaucoup ont commencé à faire leur propre pain pendant le confinement. Pour autant, tu vas toujours chez le boulanger du coin, pourquoi ?
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faq_item">
+                                    <div class="faq_question-wrapper">
+                                        <div class="faq_question-number">
+                                            <div class="faq_text-number">08</div>
+                                        </div>
+                                        <div class="faq_question">
+                                            <h3 class="heading-xxsmall">Puis-je créer mon site internet moi-même ?<br></h3>
+                                            <div class="faq_icon" id="faq_icon6" onclick="seeMoreFAQ6();">
+                                                <div class="faq_icon-line right" id="iconPlus"></div>
+                                                <div class="faq_icon-line is-vertical" id="iconCross"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="faq_answer" id="faq_answer6">
+                                        <div class="faq_answer-wrapper">
+                                            <p>
+                                                De nos jours, tout le monde peut créer son site web. En revanche, en faire un performant est une autre affaire. <br><br>
+                                                Beaucoup ont commencé à faire leur propre pain pendant le confinement. Pour autant, tu vas toujours chez le boulanger du coin, pourquoi ?
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faq_item">
+                                    <div class="faq_question-wrapper">
+                                        <div class="faq_question-number">
+                                            <div class="faq_text-number">09</div>
+                                        </div>
+                                        <div class="faq_question">
+                                            <h3 class="heading-xxsmall">Puis-je créer mon site internet moi-même ?<br></h3>
+                                            <div class="faq_icon" id="faq_icon8" onclick="seeMoreFAQ8();">
+                                                <div class="faq_icon-line right" id="iconPlus"></div>
+                                                <div class="faq_icon-line is-vertical" id="iconCross"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="faq_answer" id="faq_answer8">
+                                        <div class="faq_answer-wrapper">
+                                            <p>
+                                                De nos jours, tout le monde peut créer son site web. En revanche, en faire un performant est une autre affaire. <br><br>
+                                                Beaucoup ont commencé à faire leur propre pain pendant le confinement. Pour autant, tu vas toujours chez le boulanger du coin, pourquoi ?
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
