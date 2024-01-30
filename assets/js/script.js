@@ -334,4 +334,33 @@ function seeMoreFAQ9(){
 
     }
 }
+
+function nextStepForm1(){
+    var slide1 = document.getElementById('one');
+    var slide2 = document.getElementById('two');
+
+    slide1.style.display = "none";
+    slide2.style.display = "block";
+}
+function nextStepForm2(){
+    var slide2 = document.getElementById('two');
+    var slide3 = document.getElementById('three');
+
+    slide2.style.display = "none";
+    slide3.style.display = "block";
+}
+function prevStepForm1(){
+    var slide1 = document.getElementById('one');
+    var slide2 = document.getElementById('two');
+
+    slide1.style.display = "block";
+    slide2.style.display = "none";
+}
+function prevStepForm2(){
+    var slide2 = document.getElementById('two');
+    var slide3 = document.getElementById('three');
+
+    slide2.style.display = "block";
+    slide3.style.display = "none";
+}
 /* FAQ */
