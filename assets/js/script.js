@@ -178,161 +178,291 @@ function seeMoreFAQ0(){
     var faq_answer = document.getElementById("faq_answer");
     var faq_icon =document.getElementById("faq_icon");
 
-    if(faq_answer.style.width != "640px"){
-        faq_answer.style.width = "640px";
-        faq_answer.style.height = "auto";
-        faq_icon.style.transform = "rotate(45deg)";
-
-    }else{
-        faq_answer.style.width = "inherit";
-        faq_answer.style.height = "0";
-        faq_icon.style.transform = "rotate(0deg)";
-
-    }
+    if (window.screen.width < 768) {
+        if(faq_answer.style.width != "100%"){
+            faq_answer.style.width = "100%";
+            faq_answer.style.height = "auto";
+            faq_icon.style.transform = "rotate(45deg)";
+    
+        }else{
+            faq_answer.style.width = "inherit";
+            faq_answer.style.height = "0";
+            faq_icon.style.transform = "rotate(0deg)";
+        }
+     }
+     else {
+        if(faq_answer.style.width != "640px"){
+            faq_answer.style.width = "640px";
+            faq_answer.style.height = "auto";
+            faq_icon.style.transform = "rotate(45deg)";
+    
+        }else{
+            faq_answer.style.width = "inherit";
+            faq_answer.style.height = "0";
+            faq_icon.style.transform = "rotate(0deg)";
+        }
+     }
 }
 function seeMoreFAQ1(){
     var faq_answer1 = document.getElementById("faq_answer1");
     var faq_icon1 =document.getElementById("faq_icon1");
 
-    if(faq_answer1.style.width != "640px"){
-        faq_answer1.style.width = "640px";
-        faq_answer1.style.height = "auto";
-        faq_icon1.style.transform = "rotate(45deg)";
-
-    }else{
-        faq_answer1.style.width = "inherit";
-        faq_answer1.style.height = "0";
-        faq_icon1.style.transform = "rotate(0deg)";
-
-    }
+    if (window.screen.width < 768) {
+        if(faq_answer1.style.width != "100%"){
+            faq_answer1.style.width = "100%";
+            faq_answer1.style.height = "auto";
+            faq_icon1.style.transform = "rotate(45deg)";
+    
+        }else{
+            faq_answer1.style.width = "inherit";
+            faq_answer1.style.height = "0";
+            faq_icon1.style.transform = "rotate(0deg)";
+        }
+     }
+     else {
+        if(faq_answer1.style.width != "640px"){
+            faq_answer1.style.width = "640px";
+            faq_answer1.style.height = "auto";
+            faq_icon1.style.transform = "rotate(45deg)";
+    
+        }else{
+            faq_answer1.style.width = "inherit";
+            faq_answer1.style.height = "0";
+            faq_icon1.style.transform = "rotate(0deg)";
+        }
+     }
 }
 function seeMoreFAQ2(){
     var faq_answer2 = document.getElementById("faq_answer2");
     var faq_icon2 =document.getElementById("faq_icon2");
 
-    if(faq_answer2.style.width != "640px"){
-        faq_answer2.style.width = "640px";
-        faq_answer2.style.height = "auto";
-        faq_icon2.style.transform = "rotate(45deg)";
-
-    }else{
-        faq_answer2.style.width = "inherit";
-        faq_answer2.style.height = "0";
-        faq_icon2.style.transform = "rotate(0deg)";
-
-    }
+    if (window.screen.width < 768) {
+        if(faq_answer2.style.width != "100%"){
+            faq_answer2.style.width = "100%";
+            faq_answer2.style.height = "auto";
+            faq_icon2.style.transform = "rotate(45deg)";
+    
+        }else{
+            faq_answer2.style.width = "inherit";
+            faq_answer2.style.height = "0";
+            faq_icon2.style.transform = "rotate(0deg)";
+        }
+     }
+     else {
+        if(faq_answer2.style.width != "640px"){
+            faq_answer2.style.width = "640px";
+            faq_answer2.style.height = "auto";
+            faq_icon2.style.transform = "rotate(45deg)";
+    
+        }else{
+            faq_answer2.style.width = "inherit";
+            faq_answer2.style.height = "0";
+            faq_icon2.style.transform = "rotate(0deg)";
+        }
+     }
 }
 function seeMoreFAQ3(){
     var faq_answer3 = document.getElementById("faq_answer3");
     var faq_icon3 =document.getElementById("faq_icon3");
 
-    if(faq_answer3.style.width != "640px"){
-        faq_answer3.style.width = "640px";
-        faq_answer3.style.height = "auto";
-        faq_icon3.style.transform = "rotate(45deg)";
-
-    }else{
-        faq_answer3.style.width = "inherit";
-        faq_answer3.style.height = "0";
-        faq_icon3.style.transform = "rotate(0deg)";
-
-    }
+    if (window.screen.width < 768) {
+        if(faq_answer3.style.width != "100%"){
+            faq_answer3.style.width = "100%";
+            faq_answer3.style.height = "auto";
+            faq_icon3.style.transform = "rotate(45deg)";
+    
+        }else{
+            faq_answer3.style.width = "inherit";
+            faq_answer3.style.height = "0";
+            faq_icon3.style.transform = "rotate(0deg)";
+        }
+     }
+     else {
+        if(faq_answer3.style.width != "640px"){
+            faq_answer3.style.width = "640px";
+            faq_answer3.style.height = "auto";
+            faq_icon3.style.transform = "rotate(45deg)";
+    
+        }else{
+            faq_answer3.style.width = "inherit";
+            faq_answer3.style.height = "0";
+            faq_icon3.style.transform = "rotate(0deg)";
+        }
+     }
 }
 function seeMoreFAQ4(){
     var faq_answer4 = document.getElementById("faq_answer4");
     var faq_icon4 =document.getElementById("faq_icon4");
 
-    if(faq_answer4.style.width != "640px"){
-        faq_answer4.style.width = "640px";
-        faq_answer4.style.height = "auto";
-        faq_icon4.style.transform = "rotate(45deg)";
-
-    }else{
-        faq_answer4.style.width = "inherit";
-        faq_answer4.style.height = "0";
-        faq_icon4.style.transform = "rotate(0deg)";
-
-    }
+    if (window.screen.width < 768) {
+        if(faq_answer4.style.width != "100%"){
+            faq_answer4.style.width = "100%";
+            faq_answer4.style.height = "auto";
+            faq_icon4.style.transform = "rotate(45deg)";
+    
+        }else{
+            faq_answer4.style.width = "inherit";
+            faq_answer4.style.height = "0";
+            faq_icon4.style.transform = "rotate(0deg)";
+        }
+     }
+     else {
+        if(faq_answer4.style.width != "640px"){
+            faq_answer4.style.width = "640px";
+            faq_answer4.style.height = "auto";
+            faq_icon4.style.transform = "rotate(45deg)";
+    
+        }else{
+            faq_answer4.style.width = "inherit";
+            faq_answer4.style.height = "0";
+            faq_icon4.style.transform = "rotate(0deg)";
+        }
+     }
 }
 function seeMoreFAQ5(){
     var faq_answer5 = document.getElementById("faq_answer5");
     var faq_icon5 =document.getElementById("faq_icon5");
 
-    if(faq_answer5.style.width != "640px"){
-        faq_answer5.style.width = "640px";
-        faq_answer5.style.height = "auto";
-        faq_icon5.style.transform = "rotate(45deg)";
-
-    }else{
-        faq_answer5.style.width = "inherit";
-        faq_answer5.style.height = "0";
-        faq_icon5.style.transform = "rotate(0deg)";
-
-    }
+    if (window.screen.width < 768) {
+        if(faq_answer5.style.width != "100%"){
+            faq_answer5.style.width = "100%";
+            faq_answer5.style.height = "auto";
+            faq_icon5.style.transform = "rotate(45deg)";
+    
+        }else{
+            faq_answer5.style.width = "inherit";
+            faq_answer5.style.height = "0";
+            faq_icon5.style.transform = "rotate(0deg)";
+        }
+     }
+     else {
+        if(faq_answer5.style.width != "640px"){
+            faq_answer5.style.width = "640px";
+            faq_answer5.style.height = "auto";
+            faq_icon5.style.transform = "rotate(45deg)";
+    
+        }else{
+            faq_answer5.style.width = "inherit";
+            faq_answer5.style.height = "0";
+            faq_icon5.style.transform = "rotate(0deg)";
+        }
+     }
 }
 function seeMoreFAQ6(){
     var faq_answer6 = document.getElementById("faq_answer6");
     var faq_icon6 =document.getElementById("faq_icon6");
 
-    if(faq_answer6.style.width != "640px"){
-        faq_answer6.style.width = "640px";
-        faq_answer6.style.height = "auto";
-        faq_icon6.style.transform = "rotate(45deg)";
-
-    }else{
-        faq_answer6.style.width = "inherit";
-        faq_answer6.style.height = "0";
-        faq_icon6.style.transform = "rotate(0deg)";
-
-    }
+    if (window.screen.width < 768) {
+        if(faq_answer6.style.width != "100%"){
+            faq_answer6.style.width = "100%";
+            faq_answer6.style.height = "auto";
+            faq_icon6.style.transform = "rotate(45deg)";
+    
+        }else{
+            faq_answer6.style.width = "inherit";
+            faq_answer6.style.height = "0";
+            faq_icon6.style.transform = "rotate(0deg)";
+        }
+     }
+     else {
+        if(faq_answer6.style.width != "640px"){
+            faq_answer6.style.width = "640px";
+            faq_answer6.style.height = "auto";
+            faq_icon6.style.transform = "rotate(45deg)";
+    
+        }else{
+            faq_answer6.style.width = "inherit";
+            faq_answer6.style.height = "0";
+            faq_icon6.style.transform = "rotate(0deg)";
+        }
+     }
 }
 function seeMoreFAQ7(){
     var faq_answer7 = document.getElementById("faq_answer7");
     var faq_icon7 =document.getElementById("faq_icon7");
 
-    if(faq_answer7.style.width != "640px"){
-        faq_answer7.style.width = "640px";
-        faq_answer7.style.height = "auto";
-        faq_icon7.style.transform = "rotate(45deg)";
-
-    }else{
-        faq_answer7.style.width = "inherit";
-        faq_answer7.style.height = "0";
-        faq_icon7.style.transform = "rotate(0deg)";
-
-    }
+    if (window.screen.width < 768) {
+        if(faq_answer7.style.width != "100%"){
+            faq_answer7.style.width = "100%";
+            faq_answer7.style.height = "auto";
+            faq_icon7.style.transform = "rotate(45deg)";
+    
+        }else{
+            faq_answer7.style.width = "inherit";
+            faq_answer7.style.height = "0";
+            faq_icon7.style.transform = "rotate(0deg)";
+        }
+     }
+     else {
+        if(faq_answer7.style.width != "640px"){
+            faq_answer7.style.width = "640px";
+            faq_answer7.style.height = "auto";
+            faq_icon7.style.transform = "rotate(45deg)";
+    
+        }else{
+            faq_answer7.style.width = "inherit";
+            faq_answer7.style.height = "0";
+            faq_icon7.style.transform = "rotate(0deg)";
+        }
+     }
 }
 function seeMoreFAQ8(){
     var faq_answer8 = document.getElementById("faq_answer8");
     var faq_icon8 =document.getElementById("faq_icon8");
 
-    if(faq_answer8.style.width != "640px"){
-        faq_answer8.style.width = "640px";
-        faq_answer8.style.height = "auto";
-        faq_icon8.style.transform = "rotate(45deg)";
-
-    }else{
-        faq_answer8.style.width = "inherit";
-        faq_answer8.style.height = "0";
-        faq_icon8.style.transform = "rotate(0deg)";
-
-    }
+    if (window.screen.width < 768) {
+        if(faq_answer8.style.width != "100%"){
+            faq_answer8.style.width = "100%";
+            faq_answer8.style.height = "auto";
+            faq_icon8.style.transform = "rotate(45deg)";
+    
+        }else{
+            faq_answer8.style.width = "inherit";
+            faq_answer8.style.height = "0";
+            faq_icon8.style.transform = "rotate(0deg)";
+        }
+     }
+     else {
+        if(faq_answer8.style.width != "640px"){
+            faq_answer8.style.width = "640px";
+            faq_answer8.style.height = "auto";
+            faq_icon8.style.transform = "rotate(45deg)";
+    
+        }else{
+            faq_answer8.style.width = "inherit";
+            faq_answer8.style.height = "0";
+            faq_icon8.style.transform = "rotate(0deg)";
+        }
+     }
 }
 function seeMoreFAQ9(){
     var faq_answer9 = document.getElementById("faq_answer9");
     var faq_icon9 =document.getElementById("faq_icon9");
 
-    if(faq_answer9.style.width != "640px"){
-        faq_answer9.style.width = "640px";
-        faq_answer9.style.height = "auto";
-        faq_icon9.style.transform = "rotate(45deg)";
-
-    }else{
-        faq_answer9.style.width = "inherit";
-        faq_answer9.style.height = "0";
-        faq_icon9.style.transform = "rotate(0deg)";
-
-    }
+    if (window.screen.width < 768) {
+        if(faq_answer9.style.width != "100%"){
+            faq_answer9.style.width = "100%";
+            faq_answer9.style.height = "auto";
+            faq_icon9.style.transform = "rotate(45deg)";
+    
+        }else{
+            faq_answer9.style.width = "inherit";
+            faq_answer9.style.height = "0";
+            faq_icon9.style.transform = "rotate(0deg)";
+        }
+     }
+     else {
+        if(faq_answer9.style.width != "640px"){
+            faq_answer9.style.width = "640px";
+            faq_answer9.style.height = "auto";
+            faq_icon9.style.transform = "rotate(45deg)";
+    
+        }else{
+            faq_answer9.style.width = "inherit";
+            faq_answer9.style.height = "0";
+            faq_icon9.style.transform = "rotate(0deg)";
+        }
+     }
 }
 
 function nextStepForm1(){
