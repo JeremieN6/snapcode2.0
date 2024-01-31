@@ -518,3 +518,43 @@ function prevStepForm2(){
     slide3.style.display = "none";
 }
 /* FAQ */
+
+/* ANIMATIONS JQUERY */
+document.addEventListener("DOMContentLoaded", () => {
+    $(window).scroll(function() {
+    $('.fade-in-left, .fade-in-right').each(function() {
+        var position = $(this).offset().top;
+        var scroll = $(window).scrollTop();
+        var windowHeight = $(window).height();
+
+        if (scroll > position - windowHeight + 350) {
+        $(this).addClass('visible');
+        }
+    });
+    });
+
+    $(window).scroll(function() {
+    $('.fade-in').each(function() {
+        var position = $(this).offset().top;
+        var scroll = $(window).scrollTop();
+        var windowHeight = $(window).height();
+
+        if (scroll + windowHeight > position && scroll < position + $(this).height()) {
+        $(this).addClass('visible');
+        }
+    });
+    });
+    
+    $(window).scroll(function() {
+        $('.fade-in-bottom, .fade-in-top').each(function() {
+            var position = $(this).offset().top;
+            var scroll = $(window).scrollTop();
+            var windowHeight = $(window).height();
+    
+            if (scroll > position - windowHeight + 250) {
+            $(this).addClass('visible');
+            }
+        });
+    });
+});
+/* ANIMATIONS JQUERY */
