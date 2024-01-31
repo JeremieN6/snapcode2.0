@@ -160,7 +160,7 @@ function prevTestimonial02(){
 
 }
 function nextTestimonial02(){
-    var testimonial00  = document.getElementById("w-slider-mask-0");
+    var testimonial03  = document.getElementById("w-slider-mask-3");
     var testimonial02  = document.getElementById("w-slider-mask-2");
 
     // testimonial02.style.opacity = "0";
@@ -168,6 +168,30 @@ function nextTestimonial02(){
     // testimonial00.style.transition = "transform 500ms ease 0s";
     // testimonial00.style.transform = "translateX(-1689.6px)";
     testimonial02.style.display = "none";
+    testimonial03.style.display = "block";
+}
+
+function prevTestimonial03(){
+    var testimonial02  = document.getElementById("w-slider-mask-2");
+    var testimonial03  = document.getElementById("w-slider-mask-3");
+
+    // testimonial03.style.opacity = "0";
+    // testimonial02.style.opacity = "1";
+    // testimonial02.style.transition = "transform 500ms ease 0s";
+    // testimonial02.style.transform = "translateX(-1689.6px)";
+    testimonial03.style.display = "none";
+    testimonial02.style.display = "block";
+
+}
+function nextTestimonial03(){
+    var testimonial00  = document.getElementById("w-slider-mask-0");
+    var testimonial03  = document.getElementById("w-slider-mask-3");
+
+    // testimonial02.style.opacity = "0";
+    // testimonial00.style.opacity = "1";
+    // testimonial00.style.transition = "transform 500ms ease 0s";
+    // testimonial00.style.transform = "translateX(-1689.6px)";
+    testimonial03.style.display = "none";
     testimonial00.style.display = "block";
 }
 /* Testimonials swipe */
