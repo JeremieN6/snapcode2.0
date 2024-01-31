@@ -4029,6 +4029,36 @@ h1{
         margin-bottom: 0;
     }
     /* FOOTER */
+
+
+    /* ANIMATION */
+    .fade-in {
+        opacity: 0;
+        transition: opacity 2s ease;
+    }
+
+    .fade-in.visible {
+        opacity: 1;
+    }
+
+    .fade-in-left {
+        opacity: 0;
+        transform: translateX(-100px); /* Déplace la section de -100px vers la gauche */
+        transition: opacity 1.5s ease, transform 0.5s ease;
+    }
+
+    .fade-in-right {
+        opacity: 0;
+        transform: translateX(100px); /* Déplace la section de 100px vers la droite */
+        transition: opacity 1.5s ease, transform 0.5s ease;
+    }
+
+    .fade-in-left.visible,
+    .fade-in-right.visible {
+        opacity: 1;
+        transform: translateX(0); /* Rétablit la position initiale */
+    }
+    /* ANIMATION */
 }
 /* A PROPOS */
 @media screen and (min-width: 1440px){
