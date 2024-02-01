@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/style/style.css">
 
-    <script src="jquery-3.7.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="./assets/js/script.js"></script>
     <title>SnapCode™ Agency | Création de site vitrine</title>
 </head>
@@ -24,10 +24,18 @@
             </div>
             <div class="containerNavMenu" id="containerNavMenu">
                 <ul class="menuUl" id="menuUl">
-                    <li class="menuLi active" id="active">Mes réalisations</li>
-                    <li class="menuLi">Comment ça marche</li>
-                    <li class="menuLi">Avis</li>
-                    <li class="menuLi">Tarifs</li>
+                    <a href="#realisations" class="link-styled">
+                        <li class="menuLi">Mes réalisations</li>
+                    </a>
+                    <a href="#process" class="link-styled">
+                        <li class="menuLi">Comment ça marche</li>
+                    </a>
+                    <a href="#testimonials" class="link-styled">
+                        <li class="menuLi">Avis</li>
+                    </a>
+                    <a href="#pricing" class="link-styled">
+                        <li class="menuLi">Tarifs</li>
+                    </a>
                 </ul>
             </div>
             <div class="containerSwitchTheme" id="containerSwitchTheme">
@@ -42,6 +50,7 @@
                 </div>
             </div>
         </div>
+
         <section class="header">
                 <div class="containerText">
                     <!--<div class="containerSubTitle">
@@ -79,7 +88,7 @@
                 </div>
         </section>
 
-        <section class="section-card-informations fade-in-left" id="card">
+        <section class="section-card-informations fade-in-top" id="card">
             <div class="containerCard">
                 <div class="containerCardTop">
                     <div class="containerCardTopLeft my-card">
@@ -169,6 +178,7 @@
                 </div>
             </div>
         </section>
+
         <section class="section-home-work section-realisations" id="realisations">
             <div class="containerWorkComponent">
                 <div class="work_heading-wrapper">
@@ -210,7 +220,8 @@
                 </div>
             </div>
         </section>
-        <section class="section-home-process" id="process">
+
+        <section class="section-home-process fade-in-bottom" id="process">
             <div class="container_work_process">
                 <div class="content_work_process">
                     <div class="container_work_process_left">
@@ -290,7 +301,8 @@
             </div>
 
         </section>
-        <section class="section-home-testimonials" id="testimonials">
+
+        <section class="section-home-testimonials fade-in-top" id="testimonials">
             <div class="container_testimonials">
                 <div class="content_testimonials">
                     <div class="w-layout-grid testimonials_component">
@@ -496,7 +508,8 @@
                 </div>
             </div>
         </section>
-        <section class="section-home-about">
+
+        <section class="section-home-about fade-in-bottom" id="about">
             <div class="container_about">
                 <div class="content_about">
                     <div class="content_about_left">
@@ -546,7 +559,8 @@
                 </div>
             </div>
         </section>
-        <section class="section-home-pricing" id="pricing">
+
+        <section class="section-home-pricing fade-in-top" id="pricing">
             <div class="container_pricing">
                 <div class="content_pricing">
                     <div class="container_title_h2">
@@ -557,7 +571,7 @@
                         La transparence est essentielle. Le but est d'établir une relation de confiance avec chacun de mes clients.</p>
                     </div>
                     <div class="pricing-new-grid">
-                        <div class="pricing-colomm-1">
+                        <div class="pricing-colomm-1 fade-in-left">
                             <div class="pricing-new-card">
                                 <div class="container_title_pricing_card">
                                     <div class="content_pricing_card">Landing Page Flash<span class="styled-colored">.</span> </div>
@@ -588,7 +602,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="pricing-colomm-2">
+                        <div class="pricing-colomm-2 fade-in-right">
                             <div class="pricing-new-card">
                                 <div class="popular-plan"><div>La plus populaire</div></div>
                                 <div class="container_title_pricing_card">
@@ -621,7 +635,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="pricing-colomm-3">
+                        <div class="pricing-colomm-3 fade-in-left">
                             <div class="pricing-new-card">
                                 <div class="container_title_pricing_card">
                                     <div class="content_pricing_card">Landing Page Flash<span class="styled-colored">.</span> </div>
@@ -654,7 +668,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="container_add_ons">
+                    <div class="container_add_ons fade-in-top">
                         <div class="pricing-seperator white"></div>
                         <div class="content_add_ons">
                             <div class="container_title_add_ons">
@@ -728,7 +742,7 @@
             </div>
         </section>
 
-        <section class="section-faq">
+        <section class="section-faq fade-in-bottom" id="faq">
             <div class="page-padding">
                 <div class="container-large">
                     <div class="padding-vertical padding-xhuge">
@@ -738,7 +752,7 @@
                                     <div class="container_title_h2">
                                         <h2>Questions fréquentes<span class="styled-colored">.</span></h2>
                                     </div>
-                                    <a href="/#contact" class="text-style-link">Contacte-moi pour plus d'informations</a>
+                                    <a href="#contact" class="text-style-link">Contacte-moi pour plus d'informations</a>
                                 </div>
                             </div>
                             <div class="faq_questions-column">
@@ -946,7 +960,7 @@
             </div>
         </section>
 
-        <section class="section-contact" id="contact">
+        <section class="section-contact fade-in-top" id="contact">
             <div class="contact_form_wrapper">
                 <div class="contact_component">
                     <p class="contact-heading">Alors, prêt à libérer le potentiel de votre site web ?</p>
@@ -1003,7 +1017,7 @@
                                 </div>
                                 <div class="form_body">
                                     <div class="form_body_step_1">
-                                        <label class="w-checkbox form-checkbox-field">
+                                        <label class="w-checkbox form-checkbox-field" id="input-label">
                                             <div class="form-checkbox-wrap">
                                                 <img loading="lazy" src="./assets/images/home/creation_de_site.png" alt="" class="form-icon">
                                                 <div>
@@ -1012,11 +1026,11 @@
                                                 </div>
                                             </div>
                                             <div class="w-checkbox-input w-checkbox-input--inputType-custom form-checkbox"></div>
-                                            <input id="Cr-ation-de-site-1" class="inputEtape1-1" type="checkbox" name="Cr-ation-de-site" data-name="Création de site">
+                                            <input id="Cr-ation-de-site-1 input-checkbok" class="inputEtape1-1" type="checkbox" name="Cr-ation-de-site" data-name="Création de site">
                                             <span for="Cr-ation-de-site" class="form-checkbox-text w-form-label">Checkbox</span>
                                         </label>
 
-                                        <label class="w-checkbox form-checkbox-field">
+                                        <label class="w-checkbox form-checkbox-field" id="input-label">
                                             <div class="form-checkbox-wrap">
                                                 <img loading="lazy" src="./assets/images/home/autre_question.webp" alt="" class="form-icon">
                                                 <div>
@@ -1025,7 +1039,7 @@
                                                 </div>
                                             </div>
                                             <div class="w-checkbox-input w-checkbox-input--inputType-custom form-checkbox"></div>
-                                            <input id="Cr-ation-de-site-2" class="inputEtape1-2" type="checkbox" name="Cr-ation-de-site" data-name="Création de site">
+                                            <input id="Cr-ation-de-site-2 input-checkbok" class="inputEtape1-2" type="checkbox" name="Cr-ation-de-site" data-name="Création de site">
                                             <span for="Cr-ation-de-site" class="form-checkbox-text w-form-label">Checkbox</span>
                                         </label>
                                         <div class="contact_button-base">
@@ -1171,10 +1185,11 @@
                 </div>
             </div>
         </footer>
-    <!-- Début de widget de badge Calendly -->
-    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-    <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/ngoyi-jeremie-pro/appel-d-information-jeremiecode-1er-contact?hide_gdpr_banner=1', text: 'PRENDRE UN RDV', color: '#146ef5', textColor: '#ffffff', branding: undefined }); }</script>
-    <!-- Fin de widget de badge Calendly -->
+
+        <!-- Début de widget de badge Calendly -->
+        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+        <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/ngoyi-jeremie-pro/appel-d-information-jeremiecode-1er-contact?hide_gdpr_banner=1', text: 'PRENDRE UN RDV', color: '#146ef5', textColor: '#ffffff', branding: undefined }); }</script>
+        <!-- Fin de widget de badge Calendly -->
 </body>
 </html>

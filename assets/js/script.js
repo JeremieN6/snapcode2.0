@@ -522,28 +522,28 @@ function prevStepForm2(){
 /* ANIMATIONS JQUERY */
 document.addEventListener("DOMContentLoaded", () => {
     $(window).scroll(function() {
-    $('.fade-in-left, .fade-in-right').each(function() {
-        var position = $(this).offset().top;
-        var scroll = $(window).scrollTop();
-        var windowHeight = $(window).height();
-
-        if (scroll > position - windowHeight + 350) {
-        $(this).addClass('visible');
-        }
-    });
-    });
-
-    $(window).scroll(function() {
-    $('.fade-in').each(function() {
-        var position = $(this).offset().top;
-        var scroll = $(window).scrollTop();
-        var windowHeight = $(window).height();
-
-        if (scroll + windowHeight > position && scroll < position + $(this).height()) {
-        $(this).addClass('visible');
-        }
-    });
-    });
+        $('.fade-in-left, .fade-in-right').each(function() {
+          var position = $(this).offset().top;
+          var scroll = $(window).scrollTop();
+          var windowHeight = $(window).height();
+          
+          if (scroll > position - windowHeight + 350) {
+            $(this).addClass('visible');
+          }
+        });
+      });
+      
+      $(window).scroll(function() {
+        $('.fade-in').each(function() {
+          var position = $(this).offset().top;
+          var scroll = $(window).scrollTop();
+          var windowHeight = $(window).height();
+          
+          if (scroll + windowHeight > position && scroll < position + $(this).height()) {
+            $(this).addClass('visible');
+          }
+        });
+      });
     
     $(window).scroll(function() {
         $('.fade-in-bottom, .fade-in-top').each(function() {
@@ -556,5 +556,22 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     });
+    
+/* ANIMATIONS JQUERY */
+    const navLinks = document.querySelectorAll('.menuLi');
+
+    navLinks.forEach(function(link) {
+        link.addEventListener('click', function(event) {
+
+            // Remove 'active' class from all links
+            navLinks.forEach(function(link) {
+                link.classList.remove('li-active');
+            });
+
+            // Add 'active' class to the clicked link
+            link.classList.add('li-active');
+            
+        });
+    })
 });
 /* ANIMATIONS JQUERY */
