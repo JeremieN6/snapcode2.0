@@ -65,6 +65,10 @@ p {
 .br-large-width{
     display: none;
 }
+a, a:hover, a:after{
+    color: inherit;
+    text-decoration: inherit;
+}
 /* body{
     color: #111729;
     background-color: #F2F9FE;
@@ -1377,6 +1381,9 @@ h1{
         align-items: center;
         display: flex;
     }
+    .theAddOn a{
+        text-decoration: none;
+    }
     .available {
         background-color: var(--color-gold);
         color: #161616;
@@ -2171,9 +2178,14 @@ h1{
     .sticky{
         position: sticky;
         top: 0;
-        background-color: rgb(17, 23, 41);
         box-shadow: 0 0 0.5em rgba(0, 0, 0, .5);
         z-index: 3;
+    }
+    .sticky-dark{
+        background-color: var(--bg-color-dark-mode);
+    }
+    .sticky-light{
+        background-color: var(--bg-color-light-mode);
     }
     a.link-styled {
         position: relative;
@@ -2440,6 +2452,12 @@ h1{
         flex-direction: row;
         align-items: center;
         margin: 25px 0;
+    }
+    .containerCTA{
+        margin-bottom: 0;
+    }
+    .containerSmallInfo{
+        margin-top: 0;
     }
     .mainCTA{
         background-color: #2A4DD0;
@@ -4274,6 +4292,12 @@ h1{
 /* A PROPOS */
 
 /* MEDIA QUERIES */
+@media (min-width:1400px) and (max-width:1699px){
+    h1{
+        font-size: 3.75rem;
+    }
+
+}
 @media (min-width:1700px){
     h1{
         font-size: 3.75rem;

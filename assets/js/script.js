@@ -1,3 +1,4 @@
+/* MENU MOBILE */
 function openMenu(){
     var containerNavMenu = document.getElementById("containerNavMenu");
     var iconMenu = document.getElementById("fa-bars");
@@ -21,6 +22,9 @@ function closeMenu(){
     close.style.display = "none";
     containerSwitchTheme.style.display = "none";
 }
+/* MENU MOBILE */
+
+/* SWITCH THEME */
 function switchDark(){
     var moonDark = document.getElementById("moonDark");
     var moonLight = document.getElementById("moonLight");
@@ -55,8 +59,8 @@ function switchDark(){
     containerNavMenu.style.backgroundColor = "#111729";
     menuUl.style.color = "#FFF";
     menuUl.style.fontWeight = "400";
-    active.style.color = "#FFF";
     navMenu.style.backgroundColor = bgColorDarkMode;
+
 }
 
 function switchLight(){
@@ -92,10 +96,26 @@ function switchLight(){
     containerNavMenu.style.backgroundColor = "#F2F9FE";
     menuUl.style.color = "#909193";
     menuUl.style.fontWeight = "600";
-    active.style.color = "#111729";
-    active.style.fontWeight = "700";
+    // active.style.color = "#111729";
+    // active.style.fontWeight = "700";
     navMenu.style.backgroundColor = bgColorLightMode;
+
+    if (navMenu.classList.contains("sticky-dark")) {
+        // Supprime la classe à supprimer
+        navMenu.classList.remove("sticky-dark");
+        
+        // Ajoute la nouvelle classe
+        navMenu.classList.add("sticky-light");
+      } else {
+        // Si la classe à supprimer n'existe pas, ajoute la classe par défaut
+        navMenu.classList.add("sticky-dark");
+        // Et enlève la nouvelle classe si elle était présente
+        navMenu.classList.remove("sticky-light");
+      }
+
 }
+/* SWITCH THEME */
+
 
 /* Testimonials swipe */
 function nextTestimonial00(){
@@ -112,7 +132,7 @@ function nextTestimonial00(){
 }
 function prevTestimonial00(){
     var testimonial00  = document.getElementById("w-slider-mask-0");
-    var testimonial02  = document.getElementById("w-slider-mask-2");
+    var testimonial03  = document.getElementById("w-slider-mask-3");
 
     // testimonial00.style.opacity = "0";
     // testimonial02.style.opacity = "1";
@@ -120,7 +140,7 @@ function prevTestimonial00(){
     // testimonial02.style.transform = "translateX(-1689.6px)";
 
     testimonial00.style.display = "none";
-    testimonial02.style.display = "block";
+    testimonial03.style.display = "block";
 }
 
 function prevTestimonial01(){
@@ -488,7 +508,9 @@ function seeMoreFAQ9(){
         }
      }
 }
+/* FAQ */
 
+/* Formulaire Contact */
 function nextStepForm1(){
     var slide1 = document.getElementById('one');
     var slide2 = document.getElementById('two');
@@ -517,7 +539,7 @@ function prevStepForm2(){
     slide2.style.display = "block";
     slide3.style.display = "none";
 }
-/* FAQ */
+
 
 /* ANIMATIONS JQUERY */
 document.addEventListener("DOMContentLoaded", () => {
@@ -559,6 +581,12 @@ document.addEventListener("DOMContentLoaded", () => {
     
 /* ANIMATIONS JQUERY */
     const navLinks = document.querySelectorAll('.menuLi');
+    var containerNavMenu = document.getElementById("containerNavMenu");
+    var containerSwitchTheme = document.getElementById("containerSwitchTheme");
+    var closeIcon = document.getElementById("closeIcon");
+    var iconMenu = document.getElementById("fa-bars");
+
+
 
     navLinks.forEach(function(link) {
         link.addEventListener('click', function(event) {
@@ -570,8 +598,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
             // Add 'active' class to the clicked link
             link.classList.add('li-active');
-            
+
+            if($(window).width() < 768){
+                containerNavMenu.style.display = "none";
+                closeIcon.style.display = "none";
+                containerSwitchTheme.style.display = "none";
+                iconMenu.style.display = "block";
+            }
         });
+
     })
 });
 /* ANIMATIONS JQUERY */
